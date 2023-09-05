@@ -9,6 +9,18 @@ import axios from 'axios';
                 headers : {}, // arguments in header
                 params: {} , // arguments in params
             });
+
+    //Using fetch
+    fetch("URL",{
+        method : "POST", //
+        header : {},
+        params : {}
+        body : JSON.stringify({
+            name : user.name,
+            email : user.email,
+            password : user.password
+        })
+    })
 */
 const Signup = ()=>{
     const [user,setUser] = useState({
