@@ -1,0 +1,10 @@
+input{
+    display: block;
+}
+.errorHeading{
+    color: red;
+}
+
+.successHeading{
+    color: green;
+}
